@@ -24,3 +24,4 @@ kadira:blaze-layout
 insecure
 autopublish
 oakworks:marker-clusterer@=0.1.1
+twbs:bootstrap

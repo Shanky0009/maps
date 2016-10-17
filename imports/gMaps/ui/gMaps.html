@@ -1,5 +1,23 @@
 <template name="gMaps">  
-  <div class="map-container">
-    {{> googleMap name="map" options=mapOptions}}
-  </div>
+  	<div class="map-container">
+    	{{> googleMap name="map" options=mapOptions}}
+  	</div>
+  	<div class="side">
+  		<h1>Enter a marker!!</h1>
+  		<form class="addMarker">
+  			<label for="place">Place: </label>
+  			<input type="text" name="place" class="form-control" id="place" placeholder="Enter place name ">
+  			<label for="img1">Select 3 Images: </label>
+  			<input type="file" name="img1" class="img1 form-control" id="img1" multiple>
+  			<label for="img2">Image 2: </label>
+  			<input type="file" name="img2" class="img2 form-control" id="img2">
+  			<label for="img3">Image 3: </label>
+  			<input type="file" name="img3" class="img3 form-control" id="img3">
+  			<label for="lat">Latitude: </label>
+  			<input type="text" name="lat" class="form-control" id="lat" placeholder="Enter place latitude ">
+  			<label for="lng">Longitude: </label>
+  			<input type="text" name="lng" class="form-control" id="lng" placeholder="Enter place longitude ">
+  			<input type="submit" name="submit" value="Add Marker">
+  		</form>	
+  	</div>
 </template>  

@@ -1,0 +1,27 @@
+[
+			{
+				"place": "A1",
+				"img1": "TajMahal.jpg",
+				"img2": "bangkok.jpg",
+				"img3": "delhi.jpg"
+			},
+			{
+				"place": "A2",
+				"img1": "dubai.jpg",
+				"img2": "france.jpg",
+				"img3": "himachal.jpg"
+			},
+			{
+				"place": "A3",
+				"img1": "egypt.jpg",
+				"img2": "hollywood.jpg",
+				"img3": "paris.jpg"
+			},
+			{
+				"place": "A4",
+				"img1": "rio.jpg",
+				"img2": "rome.jpg",
+				"img3": "sydney.jpg"
+			}
+]
+

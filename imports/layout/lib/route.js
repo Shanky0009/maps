@@ -6,3 +6,13 @@ FlowRouter.route('/', {
   		});
   	}
 });
+
+FlowRouter.route('/list', {
+	name: "list",
+  	action: function() {
+  		BlazeLayout.render('mainTemp', { 
+  			content: 'lists'
+  		});
+  	}
+});
+
