@@ -25,3 +25,5 @@ insecure
 autopublish
 oakworks:marker-clusterer@=0.1.1
 twbs:bootstrap
+mdg:geolocation
+aldeed:geocoder

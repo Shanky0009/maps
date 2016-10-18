@@ -12,7 +12,6 @@ Template.lists.onCreated(function bodyOnCreated(){
 Template.lists.helpers({
 	
 	lists() {
-		console.log(Markers.find({}).fetch())
 			return Markers.find({}).fetch();
 	}
 	

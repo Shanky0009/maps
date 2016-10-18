@@ -12,10 +12,12 @@ Meteor.startup(function() {
   Meteor.call("placesGet", function(err, response){
   	if(response)
   		places = response;
-  })
+  })  
 });
 
 Template.gMaps.onCreated(function() {  
+
+		
 
   	GoogleMaps.ready('map', function(map) {
 
@@ -165,7 +167,6 @@ Template.gMaps.events({
 		const img3 = target.img3.files[0];
 		const lat = target.lat.value;
 		const lng = target.lng.value;
-		console.log(place, img1, lat, lng)
 
 		
 

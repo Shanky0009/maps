@@ -19,9 +19,11 @@ Meteor.startup(function() {
 				        console.log('The file was saved ');
 				    }
 			  	}); 
+			},
+			getLoc:function(loc){
+				var geo = new GeoCoder();
+    		 	return geo.reverse(loc.lat, loc.lng );
 			}
 		})
-		// export let 
-		// console.log(Places)
 	}
 })	
